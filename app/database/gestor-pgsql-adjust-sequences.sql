@@ -1,0 +1,1 @@
+SELECT setval('EAMDadosBasicos_id_seq', coalesce(max(id),0) + 1, false) FROM EAMDadosBasicos;
